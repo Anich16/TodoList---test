@@ -1,0 +1,69 @@
+.item {
+    border: 1px solid #000000;
+    background-color: rosybrown;
+    border-radius: 5%;
+    position: relative;
+    margin-bottom: 10px;
+    padding: 5px 15px;
+}
+
+.info {
+    display: flex;
+    width: 75%;
+    justify-content: space-around;
+    margin: 0;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+.info:hover {
+    border-bottom: 1px solid darkred;
+    color: darkred;
+}
+
+.author {
+    font-style: italic;
+    width: 40%;
+    text-align: center;
+
+}
+
+.name {
+    width: 40%;
+}
+
+.nameInfo {
+    width: 100%;
+}
+
+.description {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.authorInfo {
+    display: inline-block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.dataInfo {
+    display: block;
+    font-size: 12px;
+}
+
+.deleteButton {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.changeButton {
+    position: absolute;
+    top: 5px;
+    right: 12%;
+}

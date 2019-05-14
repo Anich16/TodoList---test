@@ -1,0 +1,17 @@
+
+
+.todoBlock {
+    border: 1px solid #696969;
+    border-radius: 10%;
+    margin: 20px 15%;
+}
+
+.title {
+    font-size: 45px;
+    font-style: italic;
+    color: darkred;
+    font-weight: 800;
+    text-align: center;
+}
+
+
